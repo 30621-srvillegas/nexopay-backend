@@ -6,7 +6,7 @@ Repositorio Android: `https://github.com/30621-srvillegas/nexopay-android`
 
 ## Demo
 
-- Backend: `<RENDER_URL>`
+- Backend: `https://nexopay-backend-xnr5.onrender.com`
 - APK release: `https://github.com/30621-srvillegas/nexopay-android/releases`
 - Video: pendiente
 
