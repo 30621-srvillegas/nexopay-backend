@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: nexopay-backend
+    env: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_ACCESS_SECRET
+        generateValue: true
+      - key: ACCESS_TTL_SECONDS
+        value: "900"
+      - key: REFRESH_TTL_DAYS
+        value: "7"
+      - key: DB_PATH
+        value: ./data/nexopay.db
+      - key: CORS_ORIGINS
+        value: https://nexopay.local

@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.db-shm
+*.db-wal
+*.log
+coverage/
+keystore.properties
+*.jks
+*.keystore
+GUIA-PROYECTO-BILLETERA-V2.md
+.DS_Store
