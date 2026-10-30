@@ -100,6 +100,6 @@ Render free duerme el servicio tras un periodo sin tráfico. Antes de una demost
 - Los tickets WebSocket son de un solo uso.
 - Las operaciones aceptan claves de idempotencia para evitar duplicados.
 
-## Autor
+## Autores
 
-Nombre — Curso Sistemas Distribuidos UC1 — 2026
+Stalin Roche y Steven Villegas — Aplicaciones Distribuidos UC1 — 2026
